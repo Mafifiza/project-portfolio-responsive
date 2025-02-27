@@ -1,10 +1,15 @@
-h1 {
-  color: black;
-  font-family: "Playfair Display", serif;
-  font-weight: bold;
+@media (max-width: 576px) {
+  .rectangle {
+    max-height: 100px;
+  }
+
+  img.rectangle {
+    margin-bottom: 50px;
+  }
 }
 
-p {
-  font-family: "Poppins", sans-serif;
-  font-weight: normal;
+.rectangle {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/ 9;
 }
