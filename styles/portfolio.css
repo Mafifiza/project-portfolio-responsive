@@ -1,15 +1,39 @@
-@media (max-width: 576px) {
-  .rectangle {
-    max-height: 100px;
-  }
-
-  img.rectangle {
-    margin-bottom: 50px;
-  }
+.content {
+  background-image: url("../images/hero2.png");
+  height: 320px;
+  width: 1440px;
+  top: 135px;
 }
 
-.rectangle {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 16/ 9;
+.content-title {
+  width: 571px;
+  height: 98px;
+  top: 182px;
+  left: 434px;
+}
+
+.content-description {
+  width: 560px;
+  height: 70px;
+  top: 284px;
+  left: 439px;
+}
+
+p {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  align-content: center;
+  letter-spacing: 0%;
+  color: white;
+}
+
+h1 {
+  font-family: "Playfair", serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 100px;
+  align-content: center;
+  letter-spacing: normal;
 }
