@@ -1,3 +1,8 @@
+:root {
+  --heading-font-family: "Playfair", serif;
+  --default-font-family: "Poppins", serif;
+}
+
 .content {
   background-image: url("../images/hero2.png");
   height: 320px;
@@ -5,35 +10,17 @@
   top: 135px;
 }
 
-.content-title {
-  width: 571px;
-  height: 98px;
-  top: 182px;
-  left: 434px;
-}
-
-.content-description {
-  width: 560px;
-  height: 70px;
-  top: 284px;
-  left: 439px;
+body {
+  font-family: var(--default-font-family);
 }
 
 p {
-  font-family: "Poppins", serif;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 35px;
-  align-content: center;
-  letter-spacing: 0%;
+  font-family: var(--heading-font-family);
+  text-align: center;
+  margin-top: 55px;
   color: white;
 }
 
-h1 {
-  font-family: "Playfair", serif;
-  font-weight: 700;
-  font-size: 72px;
-  line-height: 100px;
-  align-content: center;
-  letter-spacing: normal;
+.navbar-brand {
+  font-family: var(--default-font-family);
 }
