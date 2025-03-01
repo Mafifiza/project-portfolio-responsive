@@ -10,6 +10,18 @@
   top: 135px;
 }
 
+.navbar-brand {
+  font-family: var(--default-font-family);
+}
+
+.img-fluid {
+  margin-top: 40px;
+}
+
+.float-start {
+  margin-bottom: 20px;
+}
+
 body {
   font-family: var(--default-font-family);
 }
@@ -21,6 +33,7 @@ p {
   color: white;
 }
 
-.navbar-brand {
-  font-family: var(--default-font-family);
+img {
+  max-width: 100px;
+  height: 100px;
 }
