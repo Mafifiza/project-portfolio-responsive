@@ -34,6 +34,7 @@ p {
 }
 
 img {
-  max-width: 100px;
-  height: 100px;
+  width: 560px;
+  height: 350px;
+  border-radius: 12px;
 }
