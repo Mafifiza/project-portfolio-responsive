@@ -40,10 +40,6 @@
   text-align: center;
 }
 
-.title-color {
-  color: var(--branding-color);
-}
-
 body {
   font-family: var(--default-font-family);
 }
