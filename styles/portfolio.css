@@ -40,6 +40,10 @@
   text-align: center;
 }
 
+.title-color {
+  color: var(--branding-color);
+}
+
 body {
   font-family: var(--default-font-family);
 }
@@ -59,16 +63,17 @@ p {
   color: white;
 }
 
-footer .footer-box {
+footer .contact-box {
   background: #f8f9fa;
   padding: 10px;
+  text-align: center;
 }
 
 footer .email-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
-  text-align: center;
+  text-align: end;
 }
 
 footer .email-link:hover {
@@ -97,6 +102,8 @@ footer .social-links a:hover {
 
   .hero {
     text-align: center;
+    padding: 80px 20px;
+    color: white;
   }
 }
 
